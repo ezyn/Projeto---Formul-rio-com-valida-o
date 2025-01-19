@@ -1,0 +1,92 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../imagem/bg-repeat.jpg);
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteudo h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffff;
+    padding-right: 70px;
+}
+
+.conteudo p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    width: 400px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.conteudo {
+    margin-right: 30px;
+}
+
+.formulario {
+    display: flex;
+    width: 500px;
+    min-height: 100%;
+    background-color: #ffff;
+    flex-direction: column;
+    padding: 20px 15px 0px 25px;
+}
+
+.input {
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.input, .mensagem::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mensagem {
+    width: 450px;
+    height: 170px;
+    padding-bottom: 110px;
+    padding-left: 10px;
+}
+
+.formulario .obrigatorio {
+    margin: 25px 0px 25px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.botao {
+    width: 450px;
+    height: 55px;
+    background-color: #3ccc87;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+.invalido {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #F52E2E;
+}
+
+.erro {
+    border: 1px solid #F52E2E;
+}
+
+.valido {
+    border: 1px solid #3ccc87;
+}
